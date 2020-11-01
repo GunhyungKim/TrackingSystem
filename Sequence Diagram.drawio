@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-01T10:06:51.529Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="lh1yAoQED7Sa3egpt8gZ" version="13.8.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-11-01T23:41:44.422Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="B8Fm0NDnj3MhnWnS8cx1" version="13.8.8" type="github" pages="3">
   <diagram name="check by other org" id="BVD1Nzk6Irm6PPl1zxWG">
-    <mxGraphModel dx="2272" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="2272" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -210,7 +210,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="check same org" id="RqzINzeq5h3FtziS9_2x">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="-QKlW4vQ4-qJbTLJ7_2R-0" />
         <mxCell id="-QKlW4vQ4-qJbTLJ7_2R-1" parent="-QKlW4vQ4-qJbTLJ7_2R-0" />
@@ -274,7 +274,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="query" id="Pkijmp181XfdVVvM2UvA">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="RsiZ0QpGsO6w1Fh5J6G3-0" />
         <mxCell id="RsiZ0QpGsO6w1Fh5J6G3-1" parent="RsiZ0QpGsO6w1Fh5J6G3-0" />
@@ -288,32 +288,29 @@
           <mxGeometry x="321" y="321" width="100" height="649" as="geometry" />
         </mxCell>
         <mxCell id="Gojqfn6ZPHsusTx1Fa39-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="e3lriPANxdvsU9dPPDCy-1" vertex="1">
-          <mxGeometry x="45" y="109" width="10" height="70" as="geometry" />
+          <mxGeometry x="45" y="109" width="10" height="101" as="geometry" />
         </mxCell>
         <mxCell id="Gojqfn6ZPHsusTx1Fa39-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="e3lriPANxdvsU9dPPDCy-1" vertex="1">
-          <mxGeometry x="45" y="219" width="10" height="161" as="geometry" />
+          <mxGeometry x="45" y="264" width="10" height="96" as="geometry" />
         </mxCell>
-        <mxCell id="rrojyfpqHIpwoiV9AYj7-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="e3lriPANxdvsU9dPPDCy-1" vertex="1">
-          <mxGeometry x="40" y="264" width="20" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="rrojyfpqHIpwoiV9AYj7-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" parent="e3lriPANxdvsU9dPPDCy-1" source="rrojyfpqHIpwoiV9AYj7-0" target="rrojyfpqHIpwoiV9AYj7-0" edge="1">
+        <mxCell id="pqYQ2kf63JSaLtqHRlyU-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="e3lriPANxdvsU9dPPDCy-1" source="Gojqfn6ZPHsusTx1Fa39-3" target="Gojqfn6ZPHsusTx1Fa39-3">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="79" y="279" />
-              <mxPoint x="79" y="309" />
+              <mxPoint x="25" y="160" />
+              <mxPoint x="25" y="185" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rrojyfpqHIpwoiV9AYj7-2" value="5. Make Random Number R&lt;br&gt;Encryption&amp;nbsp;&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;E&lt;/span&gt;&lt;sub style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;User_KU&lt;/sub&gt;(R)&lt;br&gt;XOR&amp;nbsp;&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;E&lt;/span&gt;&lt;sub style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;User_KU&lt;/sub&gt;(R)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="rrojyfpqHIpwoiV9AYj7-1" vertex="1" connectable="0">
-          <mxGeometry x="0.4412" y="-3" relative="1" as="geometry">
-            <mxPoint x="70" y="3" as="offset" />
+        <mxCell id="pqYQ2kf63JSaLtqHRlyU-1" value="3. Encrypt by User_KU&lt;br&gt;이름, Phone Number" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pqYQ2kf63JSaLtqHRlyU-0">
+          <mxGeometry x="0.3874" y="4" relative="1" as="geometry">
+            <mxPoint x="-60.69" y="-11.8" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="e3lriPANxdvsU9dPPDCy-2" value="KNU Blockchain" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="RsiZ0QpGsO6w1Fh5J6G3-1" vertex="1">
           <mxGeometry x="481" y="320" width="100" height="650" as="geometry" />
         </mxCell>
         <mxCell id="Gojqfn6ZPHsusTx1Fa39-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="e3lriPANxdvsU9dPPDCy-2" vertex="1">
-          <mxGeometry x="45" y="145" width="10" height="121" as="geometry" />
+          <mxGeometry x="45" y="190" width="10" height="121" as="geometry" />
         </mxCell>
         <mxCell id="e3lriPANxdvsU9dPPDCy-5" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" parent="RsiZ0QpGsO6w1Fh5J6G3-1" vertex="1">
           <mxGeometry x="97" y="394" width="10" height="10" as="geometry" />
@@ -327,18 +324,18 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e3lriPANxdvsU9dPPDCy-7" value="1. Authentication&lt;br&gt;Get ID, Password" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="e3lriPANxdvsU9dPPDCy-6" vertex="1" connectable="0">
+        <mxCell id="e3lriPANxdvsU9dPPDCy-7" value="1. 휴대폰인증" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="e3lriPANxdvsU9dPPDCy-6" vertex="1" connectable="0">
           <mxGeometry x="0.2593" y="1" relative="1" as="geometry">
             <mxPoint x="-12" y="16.03000000000001" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yZEhbOFt4xR3aGoGQrgP-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;endArrow=openThin;endFill=0;dashed=1;" parent="RsiZ0QpGsO6w1Fh5J6G3-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="526" y="564" as="sourcePoint" />
-            <mxPoint x="376" y="564" as="targetPoint" />
+            <mxPoint x="526" y="604" as="sourcePoint" />
+            <mxPoint x="376" y="604" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yZEhbOFt4xR3aGoGQrgP-43" value="4. Send Query Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="yZEhbOFt4xR3aGoGQrgP-42" vertex="1" connectable="0">
+        <mxCell id="yZEhbOFt4xR3aGoGQrgP-43" value="5. Send Query Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="yZEhbOFt4xR3aGoGQrgP-42" vertex="1" connectable="0">
           <mxGeometry x="0.3067" y="4" relative="1" as="geometry">
             <mxPoint x="22" y="7" as="offset" />
           </mxGeometry>
@@ -346,21 +343,25 @@
         <mxCell id="Gojqfn6ZPHsusTx1Fa39-1" value="Public&#xa;Blockchain" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="RsiZ0QpGsO6w1Fh5J6G3-1" vertex="1">
           <mxGeometry x="641" y="321" width="100" height="650" as="geometry" />
         </mxCell>
-        <mxCell id="Ch8k67b53vBa3475BqXv-0" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="Gojqfn6ZPHsusTx1Fa39-1" vertex="1">
-          <mxGeometry x="45" y="339" width="10" height="91" as="geometry" />
-        </mxCell>
-        <mxCell id="Gojqfn6ZPHsusTx1Fa39-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="RsiZ0QpGsO6w1Fh5J6G3-1" source="Gojqfn6ZPHsusTx1Fa39-0" target="Gojqfn6ZPHsusTx1Fa39-3" edge="1">
+        <mxCell id="Gojqfn6ZPHsusTx1Fa39-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0.173;entryDx=0;entryDy=0;entryPerimeter=0;" parent="RsiZ0QpGsO6w1Fh5J6G3-1" source="Gojqfn6ZPHsusTx1Fa39-0" target="Gojqfn6ZPHsusTx1Fa39-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Gojqfn6ZPHsusTx1Fa39-5" value="2. Request Certification" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Gojqfn6ZPHsusTx1Fa39-4" vertex="1" connectable="0">
+        <mxCell id="Gojqfn6ZPHsusTx1Fa39-5" value="2. Request by&lt;br&gt;Name, Phone Number" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Gojqfn6ZPHsusTx1Fa39-4" vertex="1" connectable="0">
           <mxGeometry x="0.0033" y="26" relative="1" as="geometry">
-            <mxPoint x="-1" y="37.5" as="offset" />
+            <mxPoint x="-1" y="8.509999999999998" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Gojqfn6ZPHsusTx1Fa39-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.147;entryDx=0;entryDy=0;entryPerimeter=0;" parent="RsiZ0QpGsO6w1Fh5J6G3-1" source="Gojqfn6ZPHsusTx1Fa39-3" target="Gojqfn6ZPHsusTx1Fa39-6" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Gojqfn6ZPHsusTx1Fa39-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.147;entryDx=0;entryDy=0;entryPerimeter=0;" parent="RsiZ0QpGsO6w1Fh5J6G3-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="376" y="522.5" as="sourcePoint" />
+            <mxPoint x="526" y="522.787" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="451" y="523" />
+              <mxPoint x="451" y="523" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="Gojqfn6ZPHsusTx1Fa39-9" value="3. Query Data&lt;br&gt;Encrypted by&amp;nbsp;&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;E&lt;/span&gt;&lt;sub style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;User_KU&lt;/sub&gt;&lt;br&gt;&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;E&lt;/span&gt;&lt;sub style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;User_KU&lt;/sub&gt;(장소),&lt;br&gt;&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;E&lt;/span&gt;&lt;sub style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;User_KU&lt;/sub&gt;(시간),&lt;br&gt;&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;E&lt;/span&gt;&lt;sub style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;User_KU&lt;/sub&gt;(체온)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Gojqfn6ZPHsusTx1Fa39-7" vertex="1" connectable="0">
+        <mxCell id="Gojqfn6ZPHsusTx1Fa39-9" value="4. Query Data&lt;br&gt;Encrypted by&amp;nbsp;&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;E&lt;/span&gt;&lt;sub style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;User_KU&lt;/sub&gt;&lt;br&gt;&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;E&lt;/span&gt;&lt;sub style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;User_KU&lt;/sub&gt;(장소),&lt;br&gt;&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;E&lt;/span&gt;&lt;sub style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;User_KU&lt;/sub&gt;(시간),&lt;br&gt;&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;E&lt;/span&gt;&lt;sub style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;User_KU&lt;/sub&gt;(체온)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Gojqfn6ZPHsusTx1Fa39-7" vertex="1" connectable="0">
           <mxGeometry x="0.002" y="-48" relative="1" as="geometry">
             <mxPoint x="0.28999999999999915" y="-92.8" as="offset" />
           </mxGeometry>
@@ -376,17 +377,9 @@
             <mxPoint x="365" y="665" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="omtP5OuiWtkut6tSdkr1-2" value="6. Send&amp;nbsp;&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;E&lt;/span&gt;&lt;sub style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;User_KU&lt;/sub&gt;(R)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="omtP5OuiWtkut6tSdkr1-1" vertex="1" connectable="0">
+        <mxCell id="omtP5OuiWtkut6tSdkr1-2" value="6. View Query Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="omtP5OuiWtkut6tSdkr1-1" vertex="1" connectable="0">
           <mxGeometry x="0.1085" y="-1" relative="1" as="geometry">
             <mxPoint x="8" y="12" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="omtP5OuiWtkut6tSdkr1-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.1;exitY=0.882;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;endArrow=classic;endFill=1;exitPerimeter=0;" parent="RsiZ0QpGsO6w1Fh5J6G3-1" source="Gojqfn6ZPHsusTx1Fa39-8" target="Ch8k67b53vBa3475BqXv-0" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="omtP5OuiWtkut6tSdkr1-4" value="7.&amp;nbsp; Invoke (&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;E&lt;/span&gt;&lt;sub style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;User_KU&lt;/sub&gt;(장소),&amp;nbsp;&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;E&lt;/span&gt;&lt;sub style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;User_KU&lt;/sub&gt;(시간),&amp;nbsp;&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;E&lt;/span&gt;&lt;sub style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;User_KU&lt;/sub&gt;(체온))&amp;nbsp;&lt;br&gt;XOR&amp;nbsp;&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;E&lt;/span&gt;&lt;sub style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;User_KU&lt;/sub&gt;(R)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="omtP5OuiWtkut6tSdkr1-3" vertex="1" connectable="0">
-          <mxGeometry x="-0.6643" y="2" relative="1" as="geometry">
-            <mxPoint x="91" y="40" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
