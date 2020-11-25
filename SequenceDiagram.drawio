@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-17T18:52:11.726Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="LZ_7ojPkOajHXKq7QiyV" version="13.9.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-11-25T23:15:04.423Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="V7m73vB8rGNLL40WufKK" version="13.10.3" type="github" pages="4">
   <diagram name="check by other org" id="BVD1Nzk6Irm6PPl1zxWG">
-    <mxGraphModel dx="3122" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="3122" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -116,12 +116,12 @@
             <mxPoint x="-1240" y="409" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sn4TgMrxCKvfZN2te-UG-14" value="5. Send E&lt;sub&gt;KNU_KU&lt;/sub&gt;(&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;E&lt;/span&gt;&lt;sub style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;YU_KR&lt;/sub&gt;&lt;sub&gt;&lt;br&gt;&lt;/sub&gt;(&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;E&lt;/span&gt;&lt;sub style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;User_KU&lt;/sub&gt;&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;(PN^R),&amp;nbsp;&lt;br&gt;&lt;/span&gt;E&lt;sub&gt;User_KU&lt;/sub&gt;(N^R),&amp;nbsp;&lt;br&gt;E&lt;sub&gt;User_KU&lt;/sub&gt;(L^R),&lt;br&gt;E&lt;sub&gt;User_KU&lt;/sub&gt;(T^R),&amp;nbsp;&lt;br&gt;E&lt;sub&gt;User_KU&lt;/sub&gt;(B^R)))" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="sn4TgMrxCKvfZN2te-UG-13" vertex="1" connectable="0">
+        <mxCell id="sn4TgMrxCKvfZN2te-UG-14" value="5. Send RSA Signing&lt;br&gt;E&lt;sub&gt;KNU_KU&lt;/sub&gt;(&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;E&lt;/span&gt;&lt;sub style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;YU_KR&lt;/sub&gt;&lt;sub&gt;&lt;br&gt;&lt;/sub&gt;(&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;E&lt;/span&gt;&lt;sub style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;User_KU&lt;/sub&gt;&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;(PN^R),&amp;nbsp;&lt;br&gt;&lt;/span&gt;E&lt;sub&gt;User_KU&lt;/sub&gt;(N^R),&amp;nbsp;&lt;br&gt;E&lt;sub&gt;User_KU&lt;/sub&gt;(L^R),&lt;br&gt;E&lt;sub&gt;User_KU&lt;/sub&gt;(T^R),&amp;nbsp;&lt;br&gt;E&lt;sub&gt;User_KU&lt;/sub&gt;(B^R)))" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="sn4TgMrxCKvfZN2te-UG-13" vertex="1" connectable="0">
           <mxGeometry x="-0.6224" y="-2" relative="1" as="geometry">
-            <mxPoint x="74" y="49.010000000000005" as="offset" />
+            <mxPoint x="74" y="58.52" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sn4TgMrxCKvfZN2te-UG-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.055;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" target="sn4TgMrxCKvfZN2te-UG-15" edge="1" source="sn4TgMrxCKvfZN2te-UG-12">
+        <mxCell id="sn4TgMrxCKvfZN2te-UG-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.055;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="sn4TgMrxCKvfZN2te-UG-12" target="sn4TgMrxCKvfZN2te-UG-15" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-1190" y="438" as="sourcePoint" />
             <mxPoint x="-1084" y="430" as="targetPoint" />
@@ -131,7 +131,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="sn4TgMrxCKvfZN2te-UG-26" value="User Public Key : User_KU&lt;br&gt;User Private Key : User_KR&lt;br&gt;Encrypted by User_KU : E&lt;sub&gt;User_KU&lt;/sub&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
-          <mxGeometry x="-1670" y="5" width="200" height="50" as="geometry" />
+          <mxGeometry x="-1690" y="5" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="SHByFkK58lpgq6mzbvYn-1" value="YU Public Key : YU_KU&lt;br&gt;YU Private Key : YU_KR&lt;br&gt;Encrypted by YU_KU : E&lt;sub&gt;YU_KU&lt;/sub&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="-1480" y="5" width="180" height="50" as="geometry" />
@@ -206,14 +206,14 @@
         <mxCell id="d12bho4dzzBGjNNyq2vQ-2" value="" style="shape=tape;whiteSpace=wrap;html=1;strokeWidth=2;size=1;" parent="1" vertex="1">
           <mxGeometry x="-1600" y="535" width="650" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="bIVuZOUA5TMQovcEIaCi-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#ffffff;" parent="1" vertex="1">
+        <mxCell id="bIVuZOUA5TMQovcEIaCi-1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#ffffff;align=center;fontStyle=0;" parent="1" vertex="1">
           <mxGeometry x="-1615" y="55" width="30" height="47" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="check same org" id="RqzINzeq5h3FtziS9_2x">
-    <mxGraphModel dx="1422" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="-QKlW4vQ4-qJbTLJ7_2R-0" />
         <mxCell id="-QKlW4vQ4-qJbTLJ7_2R-1" parent="-QKlW4vQ4-qJbTLJ7_2R-0" />
@@ -273,14 +273,14 @@
             <mxPoint x="34.5" y="37" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="W3eOxeClCbGdo_s35zet-0" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#ffffff;" parent="-QKlW4vQ4-qJbTLJ7_2R-1" vertex="1">
+        <mxCell id="W3eOxeClCbGdo_s35zet-0" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#ffffff;" parent="-QKlW4vQ4-qJbTLJ7_2R-1" vertex="1">
           <mxGeometry x="180" y="80" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="query" id="Pkijmp181XfdVVvM2UvA">
-    <mxGraphModel dx="1422" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="RsiZ0QpGsO6w1Fh5J6G3-0" />
         <mxCell id="RsiZ0QpGsO6w1Fh5J6G3-1" parent="RsiZ0QpGsO6w1Fh5J6G3-0" />
@@ -385,14 +385,14 @@
             <mxPoint x="10" y="36" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="G8O2R8bHnksgt0Bgtkwb-0" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#ffffff;" parent="RsiZ0QpGsO6w1Fh5J6G3-1" vertex="1">
+        <mxCell id="G8O2R8bHnksgt0Bgtkwb-0" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#ffffff;" parent="RsiZ0QpGsO6w1Fh5J6G3-1" vertex="1">
           <mxGeometry x="85" y="62" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="query for proof" id="miO2GypLxJWiE9gGKk6D">
-    <mxGraphModel dx="1422" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="r5GYWq1M-AujsmKqedZZ-0" />
         <mxCell id="r5GYWq1M-AujsmKqedZZ-1" parent="r5GYWq1M-AujsmKqedZZ-0" />
@@ -482,7 +482,7 @@
         <mxCell id="r5GYWq1M-AujsmKqedZZ-21" value="User Public Key : User_KU&lt;br&gt;User Private Key : User_KR&lt;br&gt;Encrypted by User_KU : E&lt;sub&gt;User_KU&lt;/sub&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="r5GYWq1M-AujsmKqedZZ-1" vertex="1">
           <mxGeometry width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="r5GYWq1M-AujsmKqedZZ-25" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#ffffff;" parent="r5GYWq1M-AujsmKqedZZ-1" vertex="1">
+        <mxCell id="r5GYWq1M-AujsmKqedZZ-25" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#ffffff;" parent="r5GYWq1M-AujsmKqedZZ-1" vertex="1">
           <mxGeometry x="85" y="62" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="r5GYWq1M-AujsmKqedZZ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=open;endFill=0;" parent="r5GYWq1M-AujsmKqedZZ-1" edge="1">
