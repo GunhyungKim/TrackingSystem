@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cmake -Dhelib_DIR=/home/ghkim/HElib/build/helib_pack/share/cmake/helib
+cmake -Dhelib_DIR=/home/lina/HElib/build/helib_pack/share/cmake/helib

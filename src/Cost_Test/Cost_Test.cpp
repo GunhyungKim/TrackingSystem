@@ -61,13 +61,6 @@ int main(int argc, char* argv[])
   std::cout << "Building modulus chain..." << std::endl;
   buildModChain(context, bits, c);
 
-  // Make bootstrappable.
-  // Modify the context, providing bootstrapping capabilities.
-  // Boostrapping has the affect of 'refreshing' a ciphertext back to a higher
-  // level so more operations can be performed.
-  context.makeBootstrappable(
-      helib::convert<NTL::Vec<long>, std::vector<long>>(mvec));
-
   // Print the context.
   context.zMStar.printout();
   std::cout << std::endl;
@@ -81,9 +74,6 @@ int main(int argc, char* argv[])
   helib::SecKey secret_key(context);
   // Generate the secret key.
   secret_key.GenSecKey();
-
-  // Generate bootstrapping data.
-  secret_key.genRecryptData();
 
   // Public key management.
   // Set the secret key (upcast: SecKey is a subclass of PubKey).
@@ -124,7 +114,7 @@ int main(int argc, char* argv[])
   // printing out only the back of each vector.
   // NB: fifteenOrLess4Four max is 15 bits. Later in the code we pop the MSB.
   long bitSize = 63;
-  long strSize = 8;
+  long strSize = 1;
   long outSize = 2 * bitSize;
   long a_data = NTL::RandomBits_long(bitSize);
   std::string s;
@@ -143,13 +133,17 @@ int main(int argc, char* argv[])
   std::vector<std::vector<helib::Ctxt>> enc_char(strSize, encrypted_s);
 
   // Encrypt the data in binary representation.
-  for (long i = 0; i < bitSize; ++i) {
+  std::chrono::high_resolution_clock::time_point start1 = std::chrono::high_resolution_clock::now();
+ for (long i = 0; i < bitSize; ++i) {
     std::vector<long> a_vec(ea.size());
     // Extract the i'th bit of a,b,c.
     for (auto& slot : a_vec)
       slot = (a_data >> i) & 1;
     ea.encrypt(encrypted_a[i], public_key, a_vec);
   }
+  std::chrono::high_resolution_clock::time_point end1 = std::chrono::high_resolution_clock::now();
+
+  std::chrono::duration<double> diff_enc1 = std::chrono::duration_cast<std::chrono::duration<double>>(end1-start1);
 
   std::chrono::high_resolution_clock::time_point start = std::chrono::high_resolution_clock::now();
 
@@ -231,6 +225,7 @@ int main(int argc, char* argv[])
   end = std::chrono::high_resolution_clock::now();
   std::chrono::duration<double> diff_dec = std::chrono::duration_cast<std::chrono::duration<double>>(end-start);
 
+  std::cout << "encryption 1byte char : " << diff_enc1.count() << "seconds" << std::endl;
   std::cout << "encryption 6byte char : " << diff_enc.count() << "seconds" << std::endl;
   std::cout << "bitwise op 6byte char : " << diff_bit.count() << "seconds" << std::endl;
   std::cout << "decryption 6byte char : " << diff_dec.count() << "seconds" << std::endl;

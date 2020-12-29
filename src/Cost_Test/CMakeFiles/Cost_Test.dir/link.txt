@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/Cost_Test.dir/Cost_Test.cpp.o  -o ../bin/Cost_Test  -Wl,-rpath,/home/lina/HElib/build/helib_pack/lib /home/lina/HElib/build/helib_pack/lib/libhelib.a /home/lina/HElib/build/helib_pack/lib/libntl.so /home/lina/HElib/build/helib_pack/lib/libgmp.so -lpthread 
